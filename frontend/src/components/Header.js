@@ -16,7 +16,12 @@ function Header(){
                
                 <LinkContainer to='/ahmed'>
                         <Nav.Link><i className="fas fa-user"></i>Ahmed</Nav.Link> 
-                </LinkContainer>                 
+                </LinkContainer>
+                <LinkContainer to='/notes'>
+                        <Nav.Link><i className="fas fa-user"></i>Notes</Nav.Link> 
+                </LinkContainer>
+
+
                 </Nav>
             </Navbar.Collapse>
             </Container>
