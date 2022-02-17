@@ -20,6 +20,17 @@ function Header(){
                 <LinkContainer to='/notes'>
                         <Nav.Link><i className="fas fa-user"></i>Notes</Nav.Link> 
                 </LinkContainer>
+                <LinkContainer to='mylearningpage'>
+                    <Nav.Link>
+                        <i className='fas fa-user'></i>Learn
+                    </Nav.Link>
+                </LinkContainer>
+                <LinkContainer to='to-do-list'>
+                    <Nav.Link>
+                        <i className='fas fa-user'></i>To do
+                    </Nav.Link>
+                </LinkContainer>
+
 
 
                 </Nav>

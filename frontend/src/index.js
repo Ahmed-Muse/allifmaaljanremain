@@ -11,6 +11,10 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <hr/>
+    <br/>
+    <h1>from index.js...this is the real home page</h1>
+    <p>and is just calling App.js</p>
   </React.StrictMode>,
   document.getElementById('root')
 );
